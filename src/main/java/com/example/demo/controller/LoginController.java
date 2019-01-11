@@ -10,7 +10,7 @@ public class LoginController {
     @Resource
     private LoginServiceImpl loginServiceImpl;
 
-    @RequestMapping("/test")
+    @RequestMapping("/go")
     public String test(){
         return loginServiceImpl.test();
     }
